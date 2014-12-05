@@ -1,0 +1,15 @@
+styleguide.default:
+  path: '/admin/appearance/styleguide/list'
+  defaults:
+    _controller: '\Drupal\styleguide\Controller\StyleGuideController::build'
+    _title: 'Style guide'
+  requirements:
+    _permission: 'access content'
+
+styleguide.form:
+  path: '/admin/appearance/styleguide/form'
+  defaults:
+    _form: '\Drupal\styleguide\Form\StyleGuideForm'
+    _title: 'Style guide'
+  requirements:
+    _permission: 'access content'
