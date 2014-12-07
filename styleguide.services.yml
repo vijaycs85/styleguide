@@ -1,0 +1,7 @@
+services:
+  plugin.manager.styleguide_item:
+    class: Drupal\styleguide\StyleGuideItemManager
+    parent: default_plugin_manager
+  plugin.manager.styleguide_section:
+    class: Drupal\styleguide\StyleGuideSectionManager
+    parent: default_plugin_manager
